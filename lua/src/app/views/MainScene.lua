@@ -44,17 +44,17 @@ function MainScene:setupTestMenu()
         dump(args)
         if args.name == "onVirtualCurrencyConnectorFailed" then
         elseif args.name == "onVirtualCurrencyConnectorSuccess" then
-            coins = coins + args.deltaOfCoins
-            coinsLabel:setString(coins .. " " .. currencyName)
+            coins = coins + args.coins
+            coinsLabel:setString(coins .. " " .. args.currencyname)
         elseif args.name == "onCanShowInterstitial" then
-            if args.canShowInterstitial then
+            if args.available then
                 sdkbox.PluginFyber:showInterstitial()
             end
         elseif args.name == "onInterstitialDidShow" then
         elseif args.name == "onInterstitialDismiss" then
         elseif args.name == "onInterstitialFailed" then
         elseif args.name == "onBrandEngageClientReceiveOffers" then
-            if args.areOffersAvailable then
+            if args.available then
                 sdkbox.PluginFyber:showOffers()
             end
         elseif args.name == "onBrandEngageClientChangeStatus" then

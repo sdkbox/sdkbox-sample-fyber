@@ -35,7 +35,7 @@ var HelloWorldLayer = cc.Layer.extend({
 
         // ui
         cc.MenuItemFont.setFontName('sans');
-        cc.MenuItemFont.setFontSize(32);
+        cc.MenuItemFont.setFontSize(64);
 
         var menu = new cc.Menu(
             new cc.MenuItemFont("requestInterstitial", this.requestInterstitial, this),
