@@ -42,3 +42,5 @@ js/frameworks/runtime-src/proj.android/libs/fyber_lib/bin/
 js/frameworks/runtime-src/proj.android/libs/fyber_lib/gen/
 js/frameworks/runtime-src/proj.android/libs/fyber_lib/local.properties
 js/frameworks/runtime-src/proj.android/libs/fyber_lib/proguard-project.txt
+cpp/backup-*
+backup-2016-*
