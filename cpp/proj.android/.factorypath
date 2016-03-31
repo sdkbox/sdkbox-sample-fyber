@@ -1,0 +1,12 @@
+<factorypath>
+    <factorypathentry kind="WKSPJAR" id="/fyber_cpp/annotation_libs/fyber-adcolony-2.3.0-r3.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/fyber_cpp/annotation_libs/fyber-annotations-1.0.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/fyber_cpp/annotation_libs/fyber-annotations-compiler-1.1.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/fyber_cpp/annotation_libs/fyber-chartboost-6.3.0-r1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/fyber_cpp/annotation_libs/fyber-sdk-8.1.5.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/fyber_cpp/annotation_libs/fyber-vungle-3.3.4-r1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/fyber_cpp/annotation_libs/guava-18.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/fyber_cpp/annotation_libs/javapoet-1.5.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/fyber_cpp/annotation_libs/javassist-3.18.2-GA.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/fyber_cpp/annotation_libs/reflections-0.9.10.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>
