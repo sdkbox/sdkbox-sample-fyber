@@ -35,3 +35,13 @@ Memo:
 | +-- lua
 | \-- js
 ~~~
+
+## More information
+SDKBox:
+[http://cocos2d-x.org/sdkbox](http://cocos2d-x.org/sdkbox)
+
+Forum:
+[http://discuss.cocos2d-x.org/](http://discuss.cocos2d-x.org/)
+
+Fyber:
+[http://www.fyber.com/](http://www.fyber.com/)
