@@ -40,6 +40,11 @@
 		5452490188FA986921E0F588 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05D49E1AEB20A3D3A9BBFA6 /* CFNetwork.framework */; };
 		5F344509B151B00EF9306DB6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EF4AD7A628B47FD95C8A10 /* CoreTelephony.framework */; };
 		875D492D8BBFD9E1025FE0D3 /* sdkbox_config.json in Resources */ = {isa = PBXBuildFile; fileRef = CC474AC2AF67C8FA2DED2890 /* sdkbox_config.json */; };
+		9F71927B1CD0A77200A72006 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F71927A1CD0A77200A72006 /* WebKit.framework */; };
+		9F71927D1CD0A77700A72006 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F71927C1CD0A77700A72006 /* EventKit.framework */; };
+		9F71927F1CD0A77C00A72006 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F71927E1CD0A77C00A72006 /* MessageUI.framework */; };
+		9F7192811CD0A78100A72006 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7192801CD0A78100A72006 /* Social.framework */; };
+		9F7192831CD0A79000A72006 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7192821CD0A79000A72006 /* GameController.framework */; };
 		9F90420392FDA0F93BAF5DF5 /* sdkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7E4D369FF742003027FB22 /* sdkbox.framework */; };
 		9FE980CC1CAB85720038012F /* Fyber_AdColony_2.6.0-r2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE980C01CAB85710038012F /* Fyber_AdColony_2.6.0-r2.framework */; };
 		9FE980CD1CAB85720038012F /* Fyber_Chartboost_5.5.0-r2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE980C21CAB85710038012F /* Fyber_Chartboost_5.5.0-r2.framework */; };
@@ -113,6 +118,11 @@
 		847C4737BB87694BD4544EE6 /* res */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = res; path = ../Resources/res; sourceTree = "<group>"; };
 		87E64D5B9D2D23C3F43244B5 /* PluginFyber.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginFyber.framework; sourceTree = SOURCE_ROOT; };
 		8936464DBF7B20B510191810 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		9F71927A1CD0A77200A72006 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		9F71927C1CD0A77700A72006 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
+		9F71927E1CD0A77C00A72006 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		9F7192801CD0A78100A72006 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		9F7192821CD0A79000A72006 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		9FE980C01CAB85710038012F /* Fyber_AdColony_2.6.0-r2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Fyber_AdColony_2.6.0-r2.framework"; sourceTree = "<group>"; };
 		9FE980C21CAB85710038012F /* Fyber_Chartboost_5.5.0-r2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Fyber_Chartboost_5.5.0-r2.framework"; sourceTree = "<group>"; };
 		9FE980C41CAB85720038012F /* Fyber_Vungle_3.2.0-r1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Fyber_Vungle_3.2.0-r1.framework"; sourceTree = "<group>"; };
@@ -143,6 +153,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7192831CD0A79000A72006 /* GameController.framework in Frameworks */,
+				9F7192811CD0A78100A72006 /* Social.framework in Frameworks */,
+				9F71927F1CD0A77C00A72006 /* MessageUI.framework in Frameworks */,
+				9F71927D1CD0A77700A72006 /* EventKit.framework in Frameworks */,
+				9F71927B1CD0A77200A72006 /* WebKit.framework in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
 				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
@@ -213,6 +228,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F7192821CD0A79000A72006 /* GameController.framework */,
+				9F7192801CD0A78100A72006 /* Social.framework */,
+				9F71927E1CD0A77C00A72006 /* MessageUI.framework */,
+				9F71927C1CD0A77700A72006 /* EventKit.framework */,
+				9F71927A1CD0A77200A72006 /* WebKit.framework */,
 				9FE980BF1CAB85710038012F /* Fyber_AdColony_2.6.0-r2.embeddedframework */,
 				9FE980C11CAB85710038012F /* Fyber_Chartboost_5.5.0-r2.embeddedframework */,
 				9FE980C31CAB85710038012F /* Fyber_Vungle_3.2.0-r1.embeddedframework */,
@@ -482,8 +502,7 @@
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
-					"-force_load",
-					PluginFyber.framework/PluginFyber,
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sdkbox.sample.fyber.cpp;
 				SDKROOT = iphoneos;
@@ -531,8 +550,7 @@
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
-					"-force_load",
-					PluginFyber.framework/PluginFyber,
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sdkbox.sample.fyber.cpp;
 				SDKROOT = iphoneos;
