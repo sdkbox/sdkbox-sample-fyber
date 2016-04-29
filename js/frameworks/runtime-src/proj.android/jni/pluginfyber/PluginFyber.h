@@ -1,6 +1,6 @@
 /****************************************************************************
 
- Copyright (c) 2014-2015 SDKBOX Inc
+ Copyright (c) 2014-2016 SDKBOX Inc
 
  ****************************************************************************/
 #ifndef __PLUGIN_FYBER_H__
@@ -119,7 +119,7 @@ namespace sdkbox
         static void showInterstitial();
 
         /**
-         * Fetches the amount of a given currency earned since the last time this method was 
+         * Fetches the amount of a given currency earned since the last time this method was
          * invoked for the current user ID / app ID combination.
          */
         static void requestDeltaOfCoins(const std::string& currencyId = "");
