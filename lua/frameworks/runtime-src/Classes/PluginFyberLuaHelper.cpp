@@ -41,6 +41,9 @@ public:
         dict.insert(std::make_pair("error", LuaValue::intValue(error)));
         dict.insert(std::make_pair("errorcode", LuaValue::stringValue(errorCode)));
         dict.insert(std::make_pair("errormsg", LuaValue::stringValue(errorMsg)));
+
+        dict.insert(std::make_pair("errorCode", LuaValue::stringValue(errorCode)));
+        dict.insert(std::make_pair("errorMsg", LuaValue::stringValue(errorMsg)));
         stack->pushLuaValueDict(dict);
         stack->executeFunctionByHandler(mLuaHandler, 1);
     }
@@ -56,6 +59,11 @@ public:
         dict.insert(std::make_pair("currencyid", LuaValue::stringValue(currencyId)));
         dict.insert(std::make_pair("currencyname", LuaValue::stringValue(currencyName)));
         dict.insert(std::make_pair("transactionid", LuaValue::stringValue(transactionId)));
+
+        dict.insert(std::make_pair("deltaOfCoins", LuaValue::floatValue(deltaOfCoins)));
+        dict.insert(std::make_pair("currencyId", LuaValue::stringValue(currencyId)));
+        dict.insert(std::make_pair("currencyName", LuaValue::stringValue(currencyName)));
+        dict.insert(std::make_pair("transactionId", LuaValue::stringValue(transactionId)));
         stack->pushLuaValueDict(dict);
         stack->executeFunctionByHandler(mLuaHandler, 1);
     }
@@ -66,6 +74,8 @@ public:
         LuaValueDict dict;
         dict.insert(std::make_pair("name", LuaValue::stringValue("onCanShowInterstitial")));
         dict.insert(std::make_pair("available", LuaValue::booleanValue(canShowInterstitial)));
+
+        dict.insert(std::make_pair("canShowInterstitial", LuaValue::booleanValue(canShowInterstitial)));
         stack->pushLuaValueDict(dict);
         stack->executeFunctionByHandler(mLuaHandler, 1);
     }
@@ -101,6 +111,8 @@ public:
         LuaValueDict dict;
         dict.insert(std::make_pair("name", LuaValue::stringValue("onBrandEngageClientReceiveOffers")));
         dict.insert(std::make_pair("available", LuaValue::booleanValue(areOffersAvailable)));
+
+        dict.insert(std::make_pair("areOffersAvailable", LuaValue::booleanValue(areOffersAvailable)));
         stack->pushLuaValueDict(dict);
         stack->executeFunctionByHandler(mLuaHandler, 1);
     }
