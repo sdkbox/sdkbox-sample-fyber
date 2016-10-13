@@ -45,3 +45,6 @@ Forum:
 
 Fyber:
 [http://www.fyber.com/](http://www.fyber.com/)
+Fyber adapters:
+[https://bintray.com/fyber/mobile-adapters-ios]
+[http://developer.fyber.com/content/current/ios/rewarded-video/adding-networks/]
